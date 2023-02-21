@@ -1,8 +1,9 @@
 # Node JS
 
-- Node js is a open source,cross platform javascript runtime environment.
-
-
+- Node js is a open source,cross platform javascript runtime environment. Node Js run time environment provides all the neccessary components in order to use and run a 
+ js program outside the browser.Node js was written in c++ to access the low level features like file system,networking etc which cant be accessed by Javascript. 
+ 
+ 
 **Chrome v8 engine** 
 
 - Javascript code we write cannot be understood by computer, for that we need javascript engine.Js engine is a program that converts js code into machine code that 
@@ -20,7 +21,8 @@ computer understands. Js engines are typically developed by web browser vendors.
 ### Javascript RunTime
 
 - It is an environment which provides all the necessary components in order to run javascript.
-- In chrome Browser, Js Runtime consists of  components such as v8 Js engine, web apis, event loops, microtask queue and callback/task queue.
+- In chrome Browser, Js Runtime consists of  components such as v8 Js engine, web apis(DOM,timers,promises,async,await,callbacks,browser storage), event loops,
+microtask queue and callback/task queue.
 - V8 Js engine executes js code. It conists of call stack where js code gets excecuted and heap which is the memory , which stores all the variables that 
 js needs.
 
