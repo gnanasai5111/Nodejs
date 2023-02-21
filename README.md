@@ -26,3 +26,8 @@ microtask queue and callback/task queue.
 - V8 Js engine executes js code. It conists of call stack where js code gets excecuted and heap which is the memory , which stores all the variables that 
 js needs.
 
+### Executing js with node
+1. REPL(Read Evaluate Print Loop)
+-To enter into REPL,type node as a command in terminal
+2. Executing code in js file.
+
