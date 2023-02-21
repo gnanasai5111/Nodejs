@@ -33,8 +33,8 @@ js needs.
 - In terminal type : node filename
 
 ### Modules
-- In node js ,each file is treated as a seperate module.3 types of modules
-1. Local module- Modules we create in our application
-2. Built in Modules- Modules that node provides
-3. Third Party Modules- Modules written by other developers that we can use in our application
+- In node js ,each file is treated as a seperate module.3 types of modules.
+1. Local Modules- Modules we create in our application.
+2. Built in Modules- Modules that node provides.
+3. Third Party Modules- Modules written by other developers that we can use in our application.
 
