@@ -40,9 +40,9 @@ js needs.
 
 ### Local Modules
 -we use require method to use one module in other.
-\*
+
+```
 syntax: require(filepath)
 ex: require("./add.js");
-
-/*
+```
 
