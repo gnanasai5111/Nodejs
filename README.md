@@ -39,7 +39,7 @@ js needs.
 3. Third Party Modules- Modules written by other developers that we can use in our application.
 
 ### Local Modules
--we use require method to use one module in other.
+-we use require method to load one module in other.
 
 ```
 syntax: require(filepath)
