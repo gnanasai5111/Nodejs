@@ -61,7 +61,7 @@ const multiply=(a,b)=>{
  (or)
  module.exports=addition
  (or)
- module.exports={add,multiply}
+ module.exports={addition,multiply}
 
 ```
 
