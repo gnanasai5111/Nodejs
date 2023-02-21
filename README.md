@@ -57,11 +57,21 @@ const multiply=(a,b)=>{
     return a+b;
 }
 
- module.exports={add:addition,mul:multiply};
+ module.exports={add:addition,mul:multiply}; // named export
  (or)
- module.exports=addition
+ module.exports=addition   // default export 
  (or)
- module.exports={addition,multiply}
+ module.exports={addition,multiply}    // named export
+
+```
+
+### Immedialtely invoked function expression
+
+```
+
+(function(){
+console.log("hello");
+})();
 
 ```
 
