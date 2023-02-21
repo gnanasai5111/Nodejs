@@ -46,3 +46,22 @@ syntax: require(filepath)
 ex: require("./add.js");
 ```
 
+- we can export the modules using module.exports
+
+```
+const addition=(a,b)=>{
+    return a+b;
+}
+
+const multiply=(a,b)=>{
+    return a+b;
+}
+
+ module.exports={add:addition,mul:multiply};
+ (or)
+ module.exports=addition
+ (or)
+ module.exports={add,multiply}
+
+```
+
