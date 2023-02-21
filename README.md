@@ -38,3 +38,11 @@ js needs.
 2. Built in Modules- Modules that node provides.
 3. Third Party Modules- Modules written by other developers that we can use in our application.
 
+### Local Modules
+-we use require method to use one module in other.
+\*
+syntax: require(filepath)
+ex: require("./add.js");
+
+/*
+
