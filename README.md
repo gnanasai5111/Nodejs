@@ -92,3 +92,18 @@ emitter.on("order-pizza",(size,type)=>{       // listener to reponse to events e
 emitter.emit("order-pizza","large","chicken");
 ```
 
+### file system(fs)
+
+```
+fs.readFileSync("./name.txt","utf-8");   // synchronous blocks the thread 
+fs.readFile("./name.txt","utf-8",(err,data)=>{   //asynchronous
+if(err){
+    console.log(err);
+}
+else{
+    console.log(data);
+}
+});
+```
+
+
