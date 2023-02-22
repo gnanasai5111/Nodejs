@@ -78,3 +78,17 @@ console.log("hello");
 ### Built-in modules
 - path,events,fs,stream,http
 
+
+### Events
+
+```
+const EventEmitter=require("events");  //It returns a class
+
+const emitter=new EventEmitter();
+emitter.on("order-pizza",(size,type)=>{       // listener to reponse to events emitted
+    console.log("order received",size,type);
+})
+
+emitter.emit("order-pizza","large","chicken");
+```
+
