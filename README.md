@@ -120,6 +120,9 @@ server.listen(3000,()=>{
     console.log("server running on port 3000")
 });
 
+// while sending requests to server the data should in the format of string so we convert objects to JSON.stringify()
+//JSON.parse() convert back to object
+
 ```
 
 
