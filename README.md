@@ -112,9 +112,14 @@ else{
 const http=require("http");
 
 const server=http.createServer((req,res)=>{
-    res.writeHead(200,{"Content-Type":"text/plain"});
+    res.writeHead(200,{"Content-Type":"text/plain"});   
     res.end("Success");    // writes to browser
 });
+
+
+//content tye 
+text/html to send html content to browser
+application/json to send json data(objects)
 
 server.listen(3000,()=>{
     console.log("server running on port 3000")
